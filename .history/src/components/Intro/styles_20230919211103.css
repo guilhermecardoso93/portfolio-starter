@@ -1,0 +1,22 @@
+.intro-wrapper {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  postition: relative;
+  flex: 1;
+}
+
+.intro-n {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.intro-right {
+  flex: 1;
+}

@@ -1,0 +1,15 @@
+.intro-wrapper {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+.intro-left {
+  display: flex;
+  postition: relative;
+  flex: 1;
+}
+
+.intro-right {
+  flex: 1;
+}

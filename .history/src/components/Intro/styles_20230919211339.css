@@ -1,0 +1,39 @@
+.intro-wrapper {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  postition: relative;
+  flex: 1;
+}
+
+.intro-n {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-n>:nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro-n>:nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro-name.:nth-child(3) {
+  font-weight: 100;
+  color: var(--gray);
+  margin-top: 10px;
+}
+
+.intro-right {
+  flex: 1;
+}
