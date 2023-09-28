@@ -54,13 +54,11 @@ export function Intro() {
         <img src={Vector1} alt="" srcset="" />
         <img src={Vector2} alt="" srcset="" />
         <img src={Boy} alt="" srcset="" />
-        <div>
           <FloatingDiv 
             text1='Guilherme'
             text2='Cardoso'
             img={thumbup}
           />
-        </div>
       </div>
     </div>
   );

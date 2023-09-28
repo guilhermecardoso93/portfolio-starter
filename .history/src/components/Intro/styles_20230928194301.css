@@ -1,0 +1,71 @@
+.intro-wrapper {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  postition: relative;
+  flex: 1;
+  gap: 2rem;
+}
+
+.intro-n {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-n > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro-n > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro-name.:nth-child(3) {
+  font-weight: 100;
+  color: var(--gray);
+  margin-top: 10px;
+}
+
+.intro-button {
+  width: 8rem;
+  height: 2rem;
+}
+
+.intro-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.intro-icons a > svg:hover {
+  cursor: pointer;
+}
+
+.intro-right {
+  flex: 1;
+  postition: relative;
+}
+
+.intro-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.intro-right > :nth-child(1) {
+  transform: scale(0.69);
+  left:50%;
+}
+
+.intro-right > :nth-child(2) {
+  transform: scale(0.69);
+  left:60%;
+}

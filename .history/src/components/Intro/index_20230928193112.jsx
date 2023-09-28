@@ -4,12 +4,12 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { FloatingDiv } from '../FloatingDiv'
 
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
 import Boy from '../../img/boy.png'
 import thumbup from '../../img/thumbup.png'
+import Crown from './../img/crown.png'
 
 import "./styles.css";
 
@@ -51,16 +51,7 @@ export function Intro() {
         </div>
       </div>
       <div className="intro-right">
-        <img src={Vector1} alt="" srcset="" />
-        <img src={Vector2} alt="" srcset="" />
-        <img src={Boy} alt="" srcset="" />
-        <div>
-          <FloatingDiv 
-            text1='Guilherme'
-            text2='Cardoso'
-            img={thumbup}
-          />
-        </div>
+        <span>ofomfoamofpma</span>
       </div>
     </div>
   );
