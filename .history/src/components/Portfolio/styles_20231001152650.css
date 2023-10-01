@@ -1,0 +1,92 @@
+.port-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 6rem;
+  justify-content: start;
+  align-items: left;
+}
+
+.port-subtitle {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.port-title {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.card-wrapper {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.tilt-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(219, 217, 211);
+  background: linear-gradient(
+    127deg,
+    rgba(219, 217, 211, 1) 0%,
+    rgba(99, 188, 242, 1) 95%,
+    rgba(250, 250, 250, 1) 99%
+  );
+  border: 7px solid #0005ff;
+  box-shadow: var(--boxShadow);
+  padding: 0.75rem;
+  border-radius: 1rem;
+  max-width: 13rem;
+  height: 90%;
+  width: 100%;
+}
+
+.tilt-image {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.tilt-image > img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.tilt-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 1rem;
+  flex-direction: row;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.tilt-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  background-color: none;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.infos {
+  display: flex;
+  align-itens: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}

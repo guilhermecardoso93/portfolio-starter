@@ -1,0 +1,6 @@
+.card-wrapper {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  Margin-top: 2rem;
+}

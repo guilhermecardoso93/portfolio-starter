@@ -1,0 +1,27 @@
+.card-wrapper {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  Margin-top: 2rem;
+}
+
+.tilt-1 {
+  background-color: black;
+  padding: 2rem;
+  border-radius: 50px;
+  width: 13rem;
+}
+
+.tilt-image {
+  postion: relative;
+  width: 13rem;
+  height: 250px;  
+}
+
+.tilt-image > img {
+  width: 100%;
+  height: full;
+  size-image: cover;
+  border-radius: 50px;
+  background-color: blue;
+}
